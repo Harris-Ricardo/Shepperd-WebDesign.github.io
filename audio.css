@@ -33,7 +33,7 @@ nav ul li a {
 }
 
 main {
-  background-image: url(/img/large.png);
+  background-image: url(img/large.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -189,7 +189,7 @@ button {
   }
 
   main {
-    background-image: url(/img/large.png);
+    background-image: url(img/large.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
