@@ -33,9 +33,9 @@ nav ul li a {
 }
 
 main {
-  background-image: url(/dist/img/large.png);
+  background-image: url(/img/large.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   width: 100vw;
   height: 90vh;
@@ -65,8 +65,8 @@ main {
 .button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #fff;
-  color: #333;
+  background-color: #000000;
+  color: #ffffff;
   text-decoration: none;
   border-radius: 5px;
 }
@@ -189,7 +189,7 @@ button {
   }
 
   main {
-    background-image: url(/dist/img/large.png);
+    background-image: url(/img/large.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
