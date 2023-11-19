@@ -44,16 +44,16 @@ main {
   margin-top: 20px;
 }
 
-/* .service {
+ .service {
   text-align: center;
-} */
+}
 
-/* .service img {
+ .service img {
   width: 200px;
   height: 150px;
   object-fit: cover;
   border-radius: 5px;
-} */
+} 
 
 footer {
   background-color: #333;
@@ -62,14 +62,14 @@ footer {
   text-align: center;
 }
 
-button{
+button {
   background-color: green;
   padding: 5px 10px;
   color: #ffffff;
   border: none;
 }
 
-button:active{
+button:active {
   background-color: black;
 }
 
@@ -85,4 +85,11 @@ button:active{
   .service{
     margin: 30px auto;
   }
+  
+   .service img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+ } 
 }
