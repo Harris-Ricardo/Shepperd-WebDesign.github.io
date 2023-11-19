@@ -33,6 +33,11 @@ main {
   padding: 20px;
 }
 
+.container {
+  hight: auto;
+  width: auto;
+}
+
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
