@@ -47,8 +47,8 @@ main {
 }
 
 .container h1 {
-  display: flex;
-  width: 0 auto;
+  display: contents;
+/*   width: 0 auto; */
 }
 
 #hero {
