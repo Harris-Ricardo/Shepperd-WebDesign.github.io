@@ -16,7 +16,6 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: auto;
 }
 
 nav ul li {
@@ -76,7 +75,7 @@ button:active {
 
 @media (max-width: 768px) {
   .container {
-  max-width: o auto;
+  max-width: 768px;
   margin: 0 auto;
 }
 
