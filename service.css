@@ -91,23 +91,9 @@ button:active {
 }
 
  .service img {
-  width: 200px;
-  height: 150px;
+  width: auto;
+  height: auto;
   object-fit: cover;
   border-radius: 5px;
-} 
-
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
-
-button {
-  background-color: green;
-  padding: 5px 10px;
-  color: #ffffff;
-  border: none;
-}
+ }
 }
