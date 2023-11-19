@@ -74,10 +74,5 @@ button:active {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   margin-top: 20px;
-  justify-content: center;
  }
-
-  .service img{
-    width: 100%;
-  }
 }
