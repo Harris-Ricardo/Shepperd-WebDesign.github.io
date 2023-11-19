@@ -46,6 +46,11 @@ main {
   margin: 0 auto;
 }
 
+.container h1 {
+  display: flex;
+  width: 0 auto;
+}
+
 #hero {
   color: #fff;
   padding: 100px;
