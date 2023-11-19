@@ -68,10 +68,10 @@ button:active {
 }
 
 @media (max-width: 768px) {
-  .container {
+/*   .container {
   max-width: 768px;
   margin: 0 auto;
-}
+} */
 
 .services-grid {
   display: grid;
