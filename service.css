@@ -64,6 +64,7 @@ button {
   padding: 5px 10px;
   color: #ffffff;
   border: none;
+  margin-bottom: 20px;
 }
 
 button:active {
@@ -72,7 +73,7 @@ button:active {
 
 @media (max-width: 768px) {
 .services-grid p{
-  width: 0 auto;
+  word-wrap: break-all
 }
   
 .services-grid {
