@@ -76,11 +76,11 @@ button:active {
  }
 
   main img {
-    width: 5vw auto;
+    width: 0 auto;
   }
   
   .container p{
-    font-size: 1vw auto;
+    font-size: 0 auto;
     display: inline-block;
  }
 }
