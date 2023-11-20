@@ -39,7 +39,7 @@ img {
 }
 
 p {
-  max-width: 100;
+  max-width: 100px;
 }
 
 .container{
@@ -49,7 +49,7 @@ p {
 
 .container p {
   font-size: x-large;
-  display:inline;
+  display: inline;
 }
 
 footer {
