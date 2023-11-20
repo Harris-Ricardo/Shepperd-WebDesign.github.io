@@ -165,11 +165,11 @@ button {
 
   #hero h1 {
     font-size: 0 auto;
-    margin: 0 auto;
+    margin-bottom: 20px;
   }
 
   #hero p {
-    font-size: 14px;
-    margin-bottom: 40px;
+    font-size: 10px;
+    margin-bottom: 20px;
   }
 }
