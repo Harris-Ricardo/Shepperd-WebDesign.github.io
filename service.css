@@ -34,6 +34,10 @@ main {
   padding: 20px;
 }
 
+service-grid{
+  display: grid;
+}
+
 img {
   max-width: 300px;
 }
