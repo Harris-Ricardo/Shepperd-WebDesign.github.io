@@ -76,4 +76,8 @@ button:active {
   gap: 20px;
   margin: 20px;
  }
+
+  .service p {
+    width: 0 auto;
+  }
 }
