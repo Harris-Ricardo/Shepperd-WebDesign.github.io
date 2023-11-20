@@ -78,8 +78,6 @@ button:active {
   
   .container p{
     font-size: 12px;
-    display: block;
-    margin-right: 20px;
-    width: 768px;
+    display: inline;
  }
 }
