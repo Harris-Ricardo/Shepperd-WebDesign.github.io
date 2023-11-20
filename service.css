@@ -75,6 +75,7 @@ button {
   padding: 5px 10px;
   color: #ffffff;
   border: none;
+  margin-bottom: 20px;
 }
 
 button:active {
