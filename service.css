@@ -51,6 +51,10 @@ main {
   margin-bottom: 20px;
 }
 
+.services-grid p{
+  word-wrap: break-all;
+}
+
 footer {
   background-color: #333;
   color: #fff;
