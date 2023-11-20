@@ -51,10 +51,6 @@ main {
   margin-bottom: 20px;
 }
 
-.services-grid p{
-  word-wrap: break-all;
-}
-
 footer {
   background-color: #333;
   color: #fff;
@@ -77,7 +73,8 @@ button:active {
 
 @media (max-width: 768px) {
 .services-grid p{
-  word-wrap: break-all;
+  margin-right: auto;
+  margin-left: auto;
 }
   
 .services-grid {
