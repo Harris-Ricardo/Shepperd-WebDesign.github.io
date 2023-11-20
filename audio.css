@@ -164,7 +164,7 @@ button {
   }
 
   #hero h1 {
-    font-size: 14px;
+    font-size: 0 auto;
     margin-bottom: 20px;
   }
 
