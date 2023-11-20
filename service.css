@@ -46,6 +46,7 @@ main {
 .container p{
   font-size: 12px;
   display: inline;
+  margin: 20px;
 }
 
 .services-grid {
