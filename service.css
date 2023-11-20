@@ -16,10 +16,6 @@ header {
   padding: 10px;
 }
 
-/* .prices p{
-  margin-bottom: 10vh;
-} */
-
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -42,10 +38,6 @@ main {
   padding: 20px;
 }
 
-/* main img{
-  width: 30vw;
-} */
-
 .container{
   max-width: 969px;
   margin: 0 auto;
@@ -53,7 +45,7 @@ main {
 
 .container p{
   font-size: x-large;
-  display:inline;
+  display: inline-block;
 }
 
 .services-grid {
