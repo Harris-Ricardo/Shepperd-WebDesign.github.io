@@ -34,8 +34,12 @@ main {
   padding: 20px;
 }
 
-main img{
-  width: 20vw;
+img{
+  max-width: 30px;
+}
+
+p{
+  max-width: auto;
 }
 
 .container{
