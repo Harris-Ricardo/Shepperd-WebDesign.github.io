@@ -1,10 +1,7 @@
 /* Add your custom styles here */
-*{
-  box-sizing: border-box;
-  overflow-x: hidden;
-}
 
 body {
+  overflow-x: hidden;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
