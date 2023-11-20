@@ -34,12 +34,12 @@ main {
   padding: 20px;
 }
 
-img{
-  max-width: 30px;
+img {
+  max-width: 300px;
 }
 
-p{
-  max-width: auto;
+p {
+  max-width: 100;
 }
 
 .container{
@@ -47,7 +47,7 @@ p{
   margin: 0 auto;
 }
 
-.container p{
+.container p {
   font-size: x-large;
   display:inline;
 }
@@ -58,3 +58,10 @@ footer {
   padding: 10px;
   text-align: center;
 }
+
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+}
+  
