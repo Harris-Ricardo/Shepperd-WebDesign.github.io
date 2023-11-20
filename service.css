@@ -16,6 +16,10 @@ header {
   padding: 10px;
 }
 
+.prices{
+  margin-bottom: 20px;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
