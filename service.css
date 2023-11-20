@@ -39,6 +39,11 @@ main {
   margin: 0 auto;
 }
 
+.container p {
+  font-size: x-large;
+  display:inline;
+}
+
 /* .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
