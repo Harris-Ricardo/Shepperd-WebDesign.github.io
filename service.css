@@ -33,7 +33,23 @@ nav ul li a {
 }
 
 main {
-  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+main img{
+  width: 20vw;
+}
+
+.container{
+  max-width: 969px;
+  margin: 0 auto;
+}
+
+.container p{
+  font-size: x-large;
+  display:inline;
 }
 
 .services-grid {
