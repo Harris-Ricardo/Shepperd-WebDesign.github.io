@@ -76,8 +76,9 @@ button:active {
   margin-bottom: 20px;
  }
   
-  .container p{
+  .service p{
     font-size: 12px;
     display: inline;
+    word-wrap: break-all;
  }
 }
