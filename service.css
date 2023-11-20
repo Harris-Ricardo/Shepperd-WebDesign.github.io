@@ -73,7 +73,7 @@ button:active {
 
 @media (max-width: 768px) {
 .services-grid p{
-  word-wrap: break-all
+  word-wrap: break-all;
 }
   
 .services-grid {
