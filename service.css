@@ -43,11 +43,6 @@ main {
   margin: 0 auto;
 }
 
-.container p {
-  font-size: x-large;
-  display: inline;
-}
-
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -75,14 +70,8 @@ button:active {
 }
 
 @media (max-width: 768px) {
-  .container {
-  max-width: 0 auto;
-  margin: 0 auto;
-}
-
-.container p {
-  font-size: x-large;
-  display: inline;
+#service p {
+  width: 0 auto;
 }
   
 .services-grid {
