@@ -36,7 +36,6 @@ main {
   background-size: contain;
   background-repeat: no-repeat;
   padding: 20px;
-  
 }
 
 .container{
@@ -45,7 +44,7 @@ main {
 }
 
 .container p{
-  font-size: x-large;
+  font-size: 12px;
   display: inline;
 }
 
