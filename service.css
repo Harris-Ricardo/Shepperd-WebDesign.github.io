@@ -71,7 +71,7 @@ button:active {
 }
 
 @media (max-width: 768px) {
-.services-grid service{
+.services-grid p{
   width: 0 auto;
 }
   
