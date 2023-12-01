@@ -63,6 +63,11 @@ footer {
   text-align: center;
 }
 
+footer p {
+  display: flex;
+}
+  
+
 a button {
   background-color: blue;
   color: white;
