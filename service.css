@@ -64,10 +64,9 @@ footer {
 }
 
 footer p {
-  display: flex;
+  text-align: center;
 }
   
-
 a button {
   background-color: blue;
   color: white;
