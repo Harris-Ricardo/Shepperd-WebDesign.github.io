@@ -90,7 +90,7 @@ main {
 
 .feature .fas fa-fas{
   color: #fff;
-  overflow-y: hidden;
+  display: none;
 }
 
 .feature {
