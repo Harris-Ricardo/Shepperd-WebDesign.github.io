@@ -3,56 +3,107 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="audio.css">
-  <link rel="icon" href="img/large.png">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="store.png">
   <title>Home</title>
 </head>
-<body class="container">
+<body>
+  <div class="ad-container">
+    <div class="ad-slide">
+      <a href="#"><img src="image1.jpg" alt="Advertisement 1"></a>
+    </div>
+    
+    <div class="ad-slide">
+      <a href="#"><img src="image2.jpg" alt="Advertisement 2"></a>
+    </div>
+    <div class="ad-slide">
+      <a href="#"><img src="image3.jpg" alt="Advertisement 2"></a>
+    </div>
+    <div class="ad-slide">
+      <a href="#"><img src="image4.jpg" alt="Advertisement 2"></a>
+    </div>
+    <div class="ad-slide">
+      <a href="#"><img src="image5.jpg" alt="Advertisement 2"></a>
+    </div>
+    <div class="ad-slide">
+      <a href="#"><img src="image6.jpg" alt="Advertisement 2"></a>
+    </div>
+    <!-- Add more ad slides as needed -->
+  </div>
+
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="service.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
+    <div class="menu-btn">
+      <span class="menu-btn__burger"></span>
+    </div>
+    <nav class="nav">
+      <ul class="menu-nav">
+        <li class="menu-nav__item active">
+          <a href="index.html" class="menu-nav__link">Home</a>
+        </li>
+        <li class="menu-nav__item">
+          <a href="about.html" class="menu-nav__link">About Us</a>
+        </li>
+        <li class="menu-nav__item">
+          <a href="store.html" class="menu-nav__link">Store</a>
+        </li>
+        <li class="menu-nav__item">
+          <a href="contact.html" class="menu-nav__link">Contact Us</a>
+        </li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section id="hero">
-      <div class="container">
-        <h1>Webdesign</h1>
-      </div>
-    </section>
+    <section class="home">
+      <h2>Welcome to</h2>
+      <h1 class="home__name">
+        StoreSphere <span class="home__name--last">Shop</span>
+      <h1>
+        <h2>
+          Welcome to StoreSphere - Your Ultimate Online Shopping Destination!
+        </h2>
 
-    <section id="features">
-      <div class="container1">
-        <div class="feature">
-          <i class="fas fa-cogs"></i>
-          <h3>Feature 1</h3>
-          <p>Website about Feature</p>
-        </div>
-        <div class="feature">
-          <i class="fas fa-users"></i>
-          <h3>Feature 2</h3>
-          <p>Social-icon Feature</p>
-        </div>
-        <div class="feature">
-          <i class="fas fa-chart-bar"></i>
-          <h3>Feature 3</h3>
-          <p>Navigation Feature</p>
-        </div>
-      </div>
-      <a href="learn-more.html" class="button">Learn More</a>
-    </section>
+      <div class="social-icons">
+        <a href="https://twitter.com/grammargenius06">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
 
+        <a href="https://www.facebook.com/profile.php?id=100079912147092">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+
+        <a href="https://www.instagram.com/ricardoharris6816?igsh=YzljYTk1ODg3Zg==">
+          <i class="fab fa-instagram fa-2x"></i>
+        </a>
+
+        <a href="tiktok.com/@ricardoooooo01">
+        <i class="fab fa-tiktok fa-2x"></i>
+        </a>
+
+        <a href="https://discord.com/channels/1203371546874224661/1203371546874224663">
+          <i class="fab fa-discord fa-2x"></i>
+        </a>
+      </div>
+
+      <footer>
+       &copy; Copyright 2024
+      </footer>
+    </section>
   </main>
-
-  <footer>
-    <a href="T and C.html" class="terms">Terms and Conditions</a>
-    <p>&copy; Copyright 2023 Shepperd-WebDesign. All rights reserved.</p>
-  </footer>
+  
+  <script type="text/javascript">
+    var _iub = _iub || [];
+    _iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"enableFadp":true,"enableLgpd":true,"enableTcf":true,"enableUspr":true,"fadpApplies":true,"floatingPreferencesButtonDisplay":"bottom-right","googleAdditionalConsentMode":true,"lang":"en","perPurposeConsent":true,"siteId":3515035,"tcfPurposes":{"2":"consent_only","7":"consent_only","8":"consent_only","9":"consent_only","10":"consent_only","11":"consent_only"},"usprApplies":true,"whitelabel":false,"cookiePolicyId":90260900, "banner":{ "acceptButtonDisplay":true,"closeButtonDisplay":false,"customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"position":"float-top-center","rejectButtonDisplay":true,"showTitle":false }};
+    </script>
+    <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/3515035.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/stub-v2.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/tcf/safe-tcf-v2.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
   <script src="https://kit.fontawesome.com/0f697d302b.js" crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>

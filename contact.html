@@ -3,65 +3,84 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="contact.css">
-  <link rel="icon" href="img/large.png">
-  <title>Contact</title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" href="store.png">
+  <title>Contact Us</title>
 </head>
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="service.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
+    <div class="menu-btn">
+      <span class="menu-btn__burger"></span>
+    </div>
+    <nav class="nav">
+      <ul class="menu-nav">
+        <li class="menu-nav__item ">
+          <a href="index.html" class="menu-nav__link">Home</a>
+        </li>
+        <li class="menu-nav__item">
+          <a href="about.html" class="menu-nav__link">About Us</a>
+        </li>
+        <li class="menu-nav__item">
+          <a href="store.html" class="menu-nav__link">Store</a>
+        </li>
+        <li class="menu-nav__item active">
+          <a href="contact.html" class="menu-nav__link">Contact Us</a>
+        </li>
       </ul>
     </nav>
   </header>
-    <h1>Contact</h1>
-    <form id="contact-form" action="https://formsubmit.co/7801b87fd3528313588d941a59fdbad3" method="POST">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-  
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-  
-      <label for="subject">Subject:</label>
-      <input type="text" id="subject" name="subject" required>
-  
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-  
-      <button type="submit">Send</button>
-    </form>
-  
-    <div id="response"></div>
 
-  <footer>
-      <a href="mailto:ricardo1harris@gmail.com" class="social-icon">
-        <i class="fas fa-envelope"></i> Email
-      </a>
+  <main>
+    <section class="contact">
+     <h2>Contact Us...</h2>
+     <form id="contact-form" action="https://formsubmit.co/7801b87fd3528313588d941a59fdbad3" method="POST">
+      <div class="form-group">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+      </div>
 
-      <a href="callto:+1(876)796-9056" class="social-icon">
-        <i class="fas fa-mobile-alt"></i> Phone
-      </a>
+      <div class="form-group">
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required>
+      </div>
 
-      <a href="https://web.facebook.com/profile.php?id=100079912147092" class="social-icon">
-        <i class="fab fa-facebook-f"></i> Facebook
-      </a>  
+      <div class="form-group">
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
 
-      <a href="https://twitter.com/home" class="social-icon">
-        <i class="fab fa-twitter"></i> Twitter
-      </a>  
+      <input type="submit" value="Send Message">
+  </form>
 
-      <a href="https://www.instagram.com/rrhricardo/" class="social-icon">
-        <i class="fab fa-instagram"></i> Instagram
-      </a>  
-    </div>
-    
-    <p>&copy; Copyright 2023 Shepperd-WebDesign. All rights reserved.</p>
-  </footer>
-  
+      <div class="social-icons">
+        <a href="https://twitter.com/grammargenius06">
+          <i class="fab fa-twitter fa-2x"></i>
+        </a>
+
+        <a href="https://www.facebook.com/profile.php?id=100079912147092">
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+
+        <a href="https://www.instagram.com/ricardoharris6816?igsh=YzljYTk1ODg3Zg==">
+          <i class="fab fa-instagram fa-2x"></i>
+        </a>
+        
+        <a href="tiktok.com/@ricardoooooo01">
+        <i class="fab fa-tiktok fa-2x"></i>
+        </a>
+
+        <a href="https://discord.com/channels/1203371546874224661/1203371546874224663">
+          <i class="fab fa-discord fa-2x"></i>
+        </a>
+      </div>
+
+      <footer>
+        &copy; Copyright 2024.
+      </footer>
+    </section>
+  </main>
+
   <script src="https://kit.fontawesome.com/0f697d302b.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
 </body>
 </html>
